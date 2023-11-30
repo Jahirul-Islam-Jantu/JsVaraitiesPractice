@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>Product Price: <span id="price">0</span> </p>
+    <button onclick = "increasePrice()">Add more</button>
+
+
+
+
+
+
+
+
+
+    <script>
+        function increasePrice(){
+            document.getElementById("price").innerText = parseInt (document.getElementById("price"). innerText) + 10;
+        }
+    </script>
+</body>
+</html>
